@@ -1,9 +1,9 @@
 const colors = [
-    '#ff7eb9',
-    '#ff65a3',
-    '#7afcff',
-    '#feff9c',
-    '#fff740'
+    '#ff7eb9', //index 0
+    '#ff65a3', //index 0
+    '#7afcff', //index 0
+    '#feff9c', //index 0
+    '#fff740' //index 0
 ];
 
 let colorIndex = 0;
@@ -55,3 +55,31 @@ postBtn.addEventListener('click', function() {
     titleInput.value = '';
     contentInput.value = '';
 });
+
+
+
+const noteVoteData = [
+    {
+        id: 1,
+        creator: "Adam",
+        text: "This is the first sample note for the model.",
+        upvoters: ["Youssef", "Sarah"],
+        downvoters: ["John"]
+    },
+    {
+        id: 2,
+        creator: "Youssef",
+        text: "Don't forget to submit the lab on GitHub!",
+        upvoters: [],
+        downvoters: ["Adam"]
+    },
+    {
+        id: 3,
+        creator: "Guest",
+        text: "I prefer the dark theme for this app.",
+        upvoters: ["Sarah", "Mike", "Jen"],
+        downvoters: []
+    }
+];
+
+console.log("Part 2 Data Model Loaded:", noteVoteData);
