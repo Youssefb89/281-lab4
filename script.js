@@ -1,3 +1,5 @@
+//part 1
+
 const colors = [
     '#ff7eb9', //index 0
     '#ff65a3', //index 0
@@ -56,7 +58,7 @@ postBtn.addEventListener('click', function() {
     contentInput.value = '';
 });
 
-
+//part 2
 
 const noteVoteData = [
     {
